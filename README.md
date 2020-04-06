@@ -25,5 +25,5 @@ Paste the text in the *file.txt* file . Run the progam and place the cursor in t
 #### Downloading the program
 
 ``` 
-https://github.com/pkdiv/Keystroke-Generator.git
+git clone https://github.com/pkdiv/Keystroke-Generator.git
 ```
