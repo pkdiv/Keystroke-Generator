@@ -3,7 +3,7 @@ import time
 keyboard = Controller()
 
 
-with open("txtfile.txt","r") as f:
+with open("file.txt","r") as f:
     contents = f.read()
 time.sleep(6)
 characters = r'qwertyuiopasdfghjklzxcvbnm,./;{}1234567890!@#$%^&*()<>"  '
