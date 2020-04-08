@@ -16,25 +16,11 @@ for char in contents:
             keyboard.release(Key.enter)
         elif char == "\t":
             pass
-            # keyboard.press(Key.space)
-            # keyboard.release(Key.space)
-            # keyboard.press(Key.space)
-            # keyboard.release(Key.space)
-            # keyboard.press(Key.space)
-            # keyboard.release(Key.space)
-            # keyboard.press(Key.space)
-            # keyboard.release(Key.space)
         else:
             keyboard.press(char)
             keyboard.release(char)
         time.sleep(0.1)
     except:
         pass
-    # elif char == " ":
-    #     keyboard.press(Key.space)
-    #     keyboard.release(Key.space)
-    # else:
-    #     keyboard.press(KeyCode.from_char(char))
-    #     keyboard.release(KeyCode.from_char(char))
-
+   
 
