@@ -6,7 +6,7 @@ Keystroke Generator is a python program to genreate **keystorkes** for a file.Th
 
 #### Prerequisites
 
-Python modules to required.
+Python modules required.
 
 ```
 pynput
