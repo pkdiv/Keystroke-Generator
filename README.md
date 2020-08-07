@@ -11,12 +11,6 @@ Python modules required.
 ```
 pynput
 ```
-**Installing pynput**
-
-```
-pip install pynput
-```
-
 
 #### Deployment
 
