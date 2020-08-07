@@ -1,13 +1,12 @@
-from pynput.keyboard import Controller,Key,KeyCode
+from pynput.keyboard import Controller, Key, KeyCode
 import time
+
 keyboard = Controller()
 
+contents = input("Enter the text :")
 
-with open("file.txt","r") as f:
-    contents = f.read()
 time.sleep(6)
 characters = r'qwertyuiopasdfghjklzxcvbnm,./;{}1234567890!@#$%^&*()<>"  '
-
 
 for char in contents:
     try:
@@ -22,5 +21,3 @@ for char in contents:
         time.sleep(0.1)
     except:
         pass
-   
-
