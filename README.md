@@ -1,6 +1,7 @@
 # Keystroke-Generator
 
-Keystroke Generator is a python program to genreate **keystorkes** for a file.The program is written in Python 3.
+Keystroke Generator is a python program to genreate **keystorkes**.
+It accepts alphanumerical character as input and generates keystrokes for the input test after the pre-set delay.
 
 ## Getting started
 
