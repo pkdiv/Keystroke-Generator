@@ -1,0 +1,1 @@
+This is a sample text that will be auto typed where you place the cursor by the program.
